@@ -33,7 +33,7 @@ a {
   max-width: 1060px;
   margin: 0 auto;
 }
-.wrapper-all {
+.wrapper-full {
   max-width: 1262px;
   margin: 0 auto;
 }
@@ -109,12 +109,10 @@ a {
 }
 
 .intro__form {
-  
 }
 .intro__form-info {
   display: flex;
   flex-wrap: wrap;
-  
 }
 .intro__form-inp {
   width: 297px;
@@ -149,7 +147,10 @@ a {
 /* -- Intro end -- */
 
 /* -- Benefits start -- */
-.benefits__wrap{
+.Benefits {
+  padding-bottom: 131px;
+}
+.benefits__wrap {
   max-width: 1262px;
   margin: 0 auto;
   box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
@@ -167,13 +168,89 @@ a {
   left: 0;
   transform: translateY(-99.5%);
   background-color: #ffffff;
-  
 }
 
-.benefits__cards{
-  
+.benefits__cards {
   background-color: #ffffff;
   height: 30vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 55px;
+  padding: 0 100px;
+}
+.benefits__card-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 26px;
+}
+.benefits__card-desc {
+  line-height: 24px;
+  margin-bottom: 39px;
+}
+.benefits__card-info {
+  color: #006dfe;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 59px;
+  background: transparent url('./images/svg/arrow.svg') no-repeat 96% center;
+  transition: 0.1s linear;
+}
+.benefits__card-info:hover {
+  background: transparent url('./images/svg/arrow.svg') no-repeat right center;
+  opacity: 0.6;
+}
+.benefits__card-ico {
+  padding: 20px 0 0 0;
+  margin-bottom: 37px;
 }
 
 /* -- Benefits end -- */
+/* -- places start -- */
+.places__wrap {
+
+}
+.places__title-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.places__title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+}
+
+.liner {
+  position: relative;
+  padding-bottom: 10px;
+}
+.liner::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 253px;
+  border: 2px solid #006dfe;
+  background: #006dfe;
+}
+
+.places__info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #006dfe;
+  padding-right: 59px;
+  background: transparent url('./images/svg/arrow.svg') no-repeat 96% center;
+  transition: 0.1s linear;
+}
+/* -- Places card  -- */
+
+.places__cards{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  height: 10vh;
+}
+
+/* -- Places end -- */
