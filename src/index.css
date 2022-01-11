@@ -196,6 +196,9 @@ a {
   background: transparent url('./images/svg/arrow.svg') no-repeat 96% center;
   transition: 0.1s linear;
 }
+.benefits__card__infos {
+  padding-bottom: 112px;
+}
 .benefits__card-info:hover {
   background: transparent url('./images/svg/arrow.svg') no-repeat right center;
   opacity: 0.6;
@@ -208,7 +211,6 @@ a {
 /* -- Benefits end -- */
 /* -- places start -- */
 .places__wrap {
-
 }
 .places__title-wrap {
   display: flex;
@@ -241,12 +243,17 @@ a {
   align-items: center;
   color: #006dfe;
   padding-right: 59px;
-  background: transparent url('./images/svg/arrow.svg') no-repeat 96% center;
+  background: transparent url('./images/svg/arrow.svg') no-repeat right center;
   transition: 0.1s linear;
+}
+
+.places__info:hover {
+  background: transparent url('./images/svg/arrow.svg') no-repeat 96% center;
+  opacity: 0.6;
 }
 /* -- Places card  -- */
 
-.places__cards{
+.places__cards {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;

@@ -47,9 +47,11 @@ export const Benefits = () => {
               Jump off balcony, onto stranger's head. Chase ball of string hide
               when guests come over.
             </p>
-            <a href='#!' className='benefits__card-info'>
-              LEARN MORE
-            </a>
+            <div className='benefits__card__infos'>
+              <a href='#!' className='benefits__card-info'>
+                LEARN MORE
+              </a>
+            </div>
           </div>
         </div>
       </div>

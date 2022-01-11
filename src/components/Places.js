@@ -10,7 +10,7 @@ export const Places = () => {
               Get inspired for your next trip
             </div>
             <a href='#!' className='places__info'>
-              VIEW ALL em{' '}
+              VIEW ALL
             </a>
           </div>
           <div className='places__cards'>
