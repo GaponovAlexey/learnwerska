@@ -147,7 +147,7 @@ a {
 /* -- Intro end -- */
 
 /* -- Benefits start -- */
-.Benefits {
+.benefits {
   padding-bottom: 131px;
 }
 .benefits__wrap {
@@ -172,11 +172,13 @@ a {
 
 .benefits__cards {
   background-color: #ffffff;
-  height: 30vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 55px;
-  padding: 0 100px;
+  padding: 0px 100px;
+}
+.benefits__card {
+  grid-column: span 1;
 }
 .benefits__card-title {
   font-weight: 500;
@@ -188,6 +190,13 @@ a {
   line-height: 24px;
   margin-bottom: 39px;
 }
+.benefits__wrap {
+  max-width: 1262px;
+  background-color: #fff;
+  margin: 0 auto;
+  box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+  position: relative;
+}
 .benefits__card-info {
   color: #006dfe;
   font-size: 16px;
@@ -196,7 +205,7 @@ a {
   background: transparent url('./images/svg/arrow.svg') no-repeat 96% center;
   transition: 0.1s linear;
 }
-.benefits__card__infos {
+.b__card-infos {
   padding-bottom: 112px;
 }
 .benefits__card-info:hover {
@@ -210,12 +219,14 @@ a {
 
 /* -- Benefits end -- */
 /* -- places start -- */
-.places__wrap {
+.places {
+  margin-bottom: 131px;
 }
 .places__title-wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 36px;
 }
 .places__title {
   font-weight: 500;
@@ -251,13 +262,179 @@ a {
   background: transparent url('./images/svg/arrow.svg') no-repeat 96% center;
   opacity: 0.6;
 }
+.places__caption {
+  margin-bottom: 36px;
+}
 /* -- Places card  -- */
 
 .places__cards {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
-  height: 10vh;
+}
+.places_card {
+  position: relative;
+  overflow: hidden;
+}
+.places_card::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(21, 24, 36, 0.4);
+}
+.places_card:hover .places__card-pic {
+  transform: scale(1.1);
+}
+.pleses__card-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
 }
 
+.places_lg {
+  grid-column: span 3;
+}
+.places_sl {
+  grid-column: span 2;
+}
+.places__card-pic {
+  height: 100%;
+  object-fit: cover;
+  transition: 1.2s all linear;
+}
+.places__card-title {
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  padding: 0 29px 27px;
+}
 /* -- Places end -- */
+/* -- Tour start -- */
+.tour {
+  margin-bottom: 107px;
+}
+.tour__card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 108px;
+}
+.tour__card {
+  margin-bottom: 79px;
+}
+.tour__section {
+  padding-left: 47px;
+}
+.tour__title {
+  padding-top: 26px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  padding-bottom: 45px;
+  width: 358px;
+}
+.tour__desc {
+  line-height: 24px;
+  padding-bottom: 58px;
+}
+.tour__link {
+  line-height: 24px;
+  color: #006dfe;
+  padding-right: 59px;
+  background: transparent url('./images/svg/arrow.svg') no-repeat right center;
+  transition: 0.1s linear;
+}
+
+.tour__link:hover {
+  background: transparent url('./images/svg/arrow.svg') no-repeat 96% center;
+  opacity: 0.6;
+}
+
+/* -- Tour end -- */
+/* -- top start -- */
+.top_places {
+  margin-bottom: 45px;
+}
+.top__title {
+  margin-bottom: 54px;
+}
+.top__title-ico {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+}
+
+.top__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 52px;
+}
+.top__card {
+  background-color: red;
+  position: relative;
+}
+.top__card {
+  margin-bottom: 45px;
+}
+.top__card-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-right: auto;
+}
+.top__card_stats {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px 25px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background: rgba(21, 24, 36, 0.6);
+  justify-content: flex-end;
+}
+.top__card-coment {
+  margin-left: 14px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 23px;
+  background: transparent url('./images/svg/comnets.svg') no-repeat center right;
+}
+.top__card-likes {
+  padding-right: 20px;
+  background: transparent url('./images/svg/heart.svg') no-repeat center right;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.top__card-desc {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 31px;
+}
+
+.top__card-but {
+  line-height: 19px;
+  padding: 12px 19px;
+  color: #fff;
+  border: 0;
+  background: #006DFE;
+}
+/* -- top end -- */

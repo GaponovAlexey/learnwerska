@@ -5,7 +5,7 @@ import bild from '../images/svg/bild.svg'
 
 export const Benefits = () => {
   return (
-    <div className='Benefits'>
+    <section className='benefits'>
       <div className='benefits__wrap'>
         <h2 className='benefits__title'>Benefits of Odigo</h2>
 
@@ -13,13 +13,15 @@ export const Benefits = () => {
           <div className='benefits__card'>
             <img src={church} alt='church' className='benefits__card-ico' />
             <h3 className='benefits__card-title'>Welcome to Odigo!</h3>
+            <div className='b__card-infos'>
             <p className='benefits__card-desc'>
               Jump off balcony, onto stranger's head. Chase ball of string hide
               when guests come over.
             </p>
-            <a href='#!' className='benefits__card-info'>
-              LEARN MORE
-            </a>
+              <a href='#!' className='benefits__card-info'>
+                LEARN MORE
+              </a>
+            </div>
           </div>
           <div className='benefits__card'>
             <img
@@ -32,22 +34,24 @@ export const Benefits = () => {
               Jump off balcony, onto stranger's head. Chase ball of string hide
               when guests come over.
             </p>
-            <a href='#!' className='benefits__card-info'>
-              LEARN MORE
-            </a>
+            <div className='b__card-infos'>
+              <a href='#!' className='benefits__card-info'>
+                LEARN MORE
+              </a>
+            </div>
           </div>
           <div className='benefits__card'>
             <img
               src={bild}
-              alt='Promoting Local Businesses'
+              alt='Your Personal Japan Guide'
               className='benefits__card-ico'
             />
-            <h3 className='benefits__card-title'>Promoting Local Businesses</h3>
+            <h3 className='benefits__card-title'>Your Personal Japan Guide</h3>
             <p className='benefits__card-desc'>
               Jump off balcony, onto stranger's head. Chase ball of string hide
               when guests come over.
             </p>
-            <div className='benefits__card__infos'>
+            <div className='b__card-infos'>
               <a href='#!' className='benefits__card-info'>
                 LEARN MORE
               </a>
@@ -55,6 +59,6 @@ export const Benefits = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
