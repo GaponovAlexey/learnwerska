@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../images/svg/logo.svg'
 
 export const Header = () => {
+  
   return (
     <header className='header'>
       <div className='wrapper'>

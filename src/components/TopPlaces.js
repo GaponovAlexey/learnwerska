@@ -38,7 +38,7 @@ export const TopPlaces = () => {
               <div className='top__card'>
                 <div className='top__img'>
                   <img src={cat2} alt='NIIGATA' className='top_img-ico' />
-                  <div className='top__card_stats'>
+                  <div  className='top__card_stats'>
                     <h2 className='top__card-title'>NIIGATA</h2>
                     <span className='top__card-likes'>221</span>
                     <span className='top__card-coment'>40</span>
