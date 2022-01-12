@@ -5,6 +5,7 @@ import cat3 from '../images/category/3.jpg'
 import cat4 from '../images/category/4.jpg'
 import cat5 from '../images/category/5.jpg'
 import cat6 from '../images/category/6.jpg'
+
 export const TopPlaces = () => {
   return (
     <section className='top_places'>
@@ -13,6 +14,7 @@ export const TopPlaces = () => {
           <div className='top__title liner'>
             <h2 className='top__title-ico linear'>Today top places to visit</h2>
           </div>
+          
           <div className='top__cards'>
             <div className='top__card-pic'>
               <div className='top__card'>
