@@ -1,0 +1,63 @@
+/* -- media start */
+
+@media screen and (max-width: 767px) {
+  .benefits__title {
+    transform: translateY(0);
+  }
+  /* fix */
+
+  .header__burger {
+    display: block;
+  }
+  .header_nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 10;
+    padding: 75px;
+    transform: translateX(-100%);
+    transition: .2s all linear;
+  }
+  .header__nav-active{
+    transform: translateX(0);
+  }
+  .header__element {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .header__element:last-child {
+    margin-bottom: 0;
+  }
+  .header__element-a {
+    font-size: 42px;
+    font-weight: 48px;
+  }
+  .header__nav-close{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    right: 20px;
+    z-index: 11;
+  }
+  .heade__nav_close-line{
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+  }
+  .heade__nav_close-line:last-child{
+    transform: translateY(-50%) rotate(40deg);
+  }
+  .heade__nav_close-line:first-child{
+    transform: translateY(-50%) rotate(-40deg);
+  }
+}
+
+/* -- media end */
