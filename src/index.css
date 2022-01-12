@@ -43,16 +43,18 @@ a {
   position: fixed;
   left: 0;
   right: 0;
-  width: 100%;
-  /* background-color: aqua; */
+  transition: .2s all linear;
 }
+.header__fix {
+  background-color: #0e1d28;
+}
+
 .header__bar {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding-top: 56px;
-  margin-bottom: 176px;
+  padding: 56px 0 20px;
 }
 
 .header__panel {

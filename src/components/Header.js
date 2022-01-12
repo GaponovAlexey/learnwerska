@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../images/svg/logo.svg'
 
 export const Header = () => {
-  
+  const [scroll, setSCROLL] = useState(false)
+
+  window.onscroll = () => {
+    if (window.pageYOffset > 70) {
+      setSCROLL(true)
+    } else {
+      setSCROLL(false)
+    }
+  }
+
   return (
-    <header className='header'>
+    <header className={scroll ? "header header__fix" : 'header'}>
       <div className='wrapper'>
         <div className='header__bar'>
           <div className='head_logo'>
