@@ -18,6 +18,7 @@ function App() {
       <TopPlaces />
       <Video />
       <Footer />
+      
     </div>
   )
 }
