@@ -1,11 +1,74 @@
 /* -- media start */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 960px) {
+  .intro__form-inp {
+    margin-bottom: 25px;
+  }
+  .benefits__cards {
+    padding: 0 15px;
+    grid-column-gap: 35px;
+  }
   .benefits__title {
+    padding: 55px 15px;
+  }
+  .b__card-infos {
+    padding-bottom: 55px;
+  }
+  .benefits {
+    padding-bottom: 11px;
+  }
+
+  .benefits__wrap {
+    box-shadow: none;
+  }
+  .places_lg {
+    grid-column: span 6;
+    width: 100%;
+    height: 650px;
+  }
+  .places_sl {
+    grid-column: span 6;
+    height: 660px;
+  }
+  .tour__card {
+    column-gap: 35px;
+  }
+  .tour__desc {
+    padding-bottom: 10px;
+  }
+  .tour__title {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .top__card-pic {
+    grid-column: span 3;
+    height: auto;
+    width: auto;
+  }
+  .top__card-but {
+    margin: 0 auto;
+  }
+  .footer {
+    padding: 60px 0;
+  }
+  .liner{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__form-but {
     transform: translateY(0);
   }
   /* fix */
-
+  .intro {
+    height: 100%;
+  }
+  .intro__form-inp {
+    margin-right: 0;
+    width: 100%;
+  }
   .header__burger {
     display: block;
   }
@@ -19,9 +82,9 @@
     z-index: 10;
     padding: 75px;
     transform: translateX(+100%);
-    transition: .2s all linear;
+    transition: 0.2s all linear;
   }
-  .header__nav-active{
+  .header__nav-active {
     transform: translateX(0);
   }
   .header__element {
@@ -36,7 +99,7 @@
     font-size: 42px;
     font-weight: 48px;
   }
-  .header__nav-close{
+  .header__nav-close {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -44,7 +107,7 @@
     right: 20px;
     z-index: 11;
   }
-  .heade__nav_close-line{
+  .heade__nav_close-line {
     display: block;
     position: absolute;
     background-color: #fff;
@@ -52,11 +115,18 @@
     width: 100%;
     height: 2px;
   }
-  .heade__nav_close-line:last-child{
+  .heade__nav_close-line:last-child {
     transform: translateY(-50%) rotate(40deg);
   }
-  .heade__nav_close-line:first-child{
+  .heade__nav_close-line:first-child {
     transform: translateY(-50%) rotate(-40deg);
+  }
+  .benefits__card {
+    grid-column: span 3;
+  }
+  .tour{
+    margin-bottom: 0;
+    width: 100%;
   }
 }
 

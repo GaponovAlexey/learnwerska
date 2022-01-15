@@ -5,8 +5,6 @@ export const Header = () => {
   const [scroll, setSCROLL] = useState(false)
   const [statBur, setStatBur] = useState(false)
 
-  
-
   window.onscroll = () => {
     if (window.pageYOffset > 70) {
       setSCROLL(true)
