@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Video = () => {
   return (
-    <div className='videos__wrapper'>
+    <div className='videos__wrapper' id='Videos' >
       <div className='video__item'></div>
       <iframe
         className='video__element'

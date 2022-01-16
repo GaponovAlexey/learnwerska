@@ -1,6 +1,9 @@
 /* -- media start */
 
 @media screen and (max-width: 960px) {
+  .intro{
+    padding-bottom: 180px;
+  }
   .intro__form-inp {
     margin-bottom: 25px;
   }
@@ -54,13 +57,24 @@
   .liner{
     width: 100%;
     height: 100%;
+    margin-bottom: 15px;
   }
+  .tour__section{
+    padding-left: 0;
+  }
+  .tour__pic, .tour__section{
+    grid-column: span 2;
+    margin: 0 auto;
+    margin-bottom: 12px;
+  }
+  .tour__card-mob-first {
+    grid-row-start: -1;
+  }
+ 
+  
 }
 
 @media screen and (max-width: 767px) {
-  .intro__form-but {
-    transform: translateY(0);
-  }
   /* fix */
   .intro {
     height: 100%;
@@ -89,15 +103,16 @@
   }
   .header__element {
     width: 100%;
-    margin-right: 0;
-    margin-bottom: 30px;
+    margin-right: 5px;
+    margin-bottom: 40px;
+
   }
   .header__element:last-child {
     margin-bottom: 0;
   }
   .header__element-a {
-    font-size: 42px;
-    font-weight: 48px;
+    font-size: 52px;
+    font-weight: 68px;
   }
   .header__nav-close {
     position: absolute;
@@ -126,6 +141,45 @@
   }
   .tour{
     margin-bottom: 0;
+    width: 100%;
+  }
+  .benefits__card-ico{
+    margin-bottom: 10px;
+  }
+  .benefits__card-title{
+    margin-bottom: 15px;
+  }
+  .benefits__card-desc{
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header__bar{
+    padding: 16px 0 20px;
+  }
+  .header_nav {
+    padding: 70px 15px;
+  }
+  .intro{
+    padding-top: 150px;
+  }
+  .intro__form-but{
+    width: 100%;
+  }
+  .places_lg{
+    height: 340px;
+  }
+  .places_sl{
+    height: 340px;
+  }
+  .top__card-pic{
+    grid-column: span 6;
+  }
+  .footer__logo{
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .footer__nav{
     width: 100%;
   }
 }

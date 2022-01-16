@@ -3,7 +3,7 @@ import React from 'react'
 export const Intro = () => {
   return (
     <main className='main'>
-      <section className='intro'>
+      <section className='intro' id='Sing-in'>
         <div className='wrapper'>
           <div className='intro__section'>
             <div className='intro__title'>

@@ -1,9 +1,10 @@
 import React from 'react'
 import tour1 from '../images/jpg/tour/1.jpg'
 import tour2 from '../images/jpg/tour/2.jpg'
+
 export const Tour = () => {
   return (
-    <section className='tour'>
+    <section className='tours' id='Articles'>
       <div className='wrapper-full'>
         <div className='tour__card'>
           <div className='tour__pic'>
@@ -25,7 +26,6 @@ export const Tour = () => {
           </div>
         </div>
         <div className='tour__card'>
-        
           <div className='tour__section'>
             <h3 className='tour__title'>Featured Neighborhood: Kyoto’s Arashiyama</h3>
             <div className='tour__desc'>
@@ -36,7 +36,7 @@ export const Tour = () => {
             </div>
             <a href='#!' className='tour__link'>VIEW PREFECTURE</a>
           </div>
-          <div className='tour__pic'>
+          <div className='tour__pic tour__card-mob-first'>
             <img
               src={tour2}
               alt='Prefecture in Focus: Tottori'

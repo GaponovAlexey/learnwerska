@@ -48,6 +48,7 @@ a {
 .header__fix {
   background-color: #0e1d28;
   z-index: 999;
+  
 }
 
 .header__bar {
@@ -67,6 +68,7 @@ a {
   line-height: 24px;
   margin-left: 82px;
   color: #ffffff;
+  
 }
 .header__element:hover,
 .header__element:active,
@@ -113,7 +115,8 @@ a {
     #151824 95.04%
   );
   padding-top: 263px;
-  padding-bottom: 223px;
+  padding-bottom: 450px;
+  /* margin-bottom: 106px; */
 }
 
 .intro__title {
@@ -122,6 +125,7 @@ a {
   font-size: 50px;
   line-height: 60px;
   color: white;
+  
   margin-bottom: 22px;
 }
 .intor__title-thump {
@@ -133,6 +137,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
+  
   max-width: 546px;
 }
 .intro__title {
@@ -161,6 +166,7 @@ a {
   padding-left: 43px;
   padding-bottom: 22px;
   color: #ffffff;
+  
   font-weight: 700;
 }
 .intro__form-inp::placeholder {
@@ -360,7 +366,7 @@ a {
 }
 /* -- Places end -- */
 /* -- Tour start -- */
-.tour {
+.tours {
   margin-bottom: 107px;
 }
 .tour__card {

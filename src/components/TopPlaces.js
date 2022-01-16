@@ -8,7 +8,7 @@ import cat6 from '../images/category/6.jpg'
 
 export const TopPlaces = () => {
   return (
-    <section className='top_places'>
+    <section className='top_places' id='Locations' >
       <div className='wrapper-full'>
         <div className='top__section'>
           <div className='top__title liner'>
