@@ -63,22 +63,22 @@ export const Header = () => {
           >
             <ul className='header__panel'>
               <li className='header__element'>
-                <a href='#Articles' className='header__element-a js-scroll'>
+                <a onClick={() => setStatBur(false)} href='#Articles' className='header__element-a js-scroll'>
                   Articles
                 </a>
               </li>
               <li className='header__element'>
-                <a href='#Locations' className='header__element-a js-scroll'>
+                <a onClick={() => setStatBur(false)}  href='#Locations' className='header__element-a js-scroll'>
                   Locations
                 </a>
               </li>
               <li className='header__element'>
-                <a href='#Videos' className='header__element-a js-scroll'>
+                <a onClick={() => setStatBur(false)} href='#Videos' className='header__element-a js-scroll'>
                   Videos
                 </a>
               </li>
               <li className='header__element'>
-                <a href='#Sing-in' className='header__element-a js-scroll'>
+                <a onClick={() => setStatBur(false)} href='#Sing-in' className='header__element-a js-scroll'>
                   Sign in
                 </a>
               </li>

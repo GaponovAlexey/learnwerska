@@ -1,10 +1,10 @@
 import React from 'react'
-import cat1 from '../images/category/1.jpg'
-import cat2 from '../images/category/2.jpg'
-import cat3 from '../images/category/3.jpg'
-import cat4 from '../images/category/4.jpg'
-import cat5 from '../images/category/5.jpg'
-import cat6 from '../images/category/6.jpg'
+import cat1 from '../images/category/1-min.jpg'
+import cat2 from '../images/category/2-min.jpg'
+import cat3 from '../images/category/3-min.jpg'
+import cat4 from '../images/category/4-min.jpg'
+import cat5 from '../images/category/5-min.jpg'
+import cat6 from '../images/category/6-min.jpg'
 
 export const TopPlaces = () => {
   return (

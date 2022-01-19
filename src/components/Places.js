@@ -1,9 +1,9 @@
 import React from 'react'
-import places1 from '../images/jpg/places/1.jpg'
-import places2 from '../images/jpg/places/2.jpg'
-import places3 from '../images/jpg/places/3.jpg'
-import places4 from '../images/jpg/places/4.jpg'
-import places5 from '../images/jpg/places/5.jpg'
+import places1 from '../images/jpg/places/1-min.jpg'
+import places2 from '../images/jpg/places/2-min.jpg'
+import places3 from '../images/jpg/places/3-min.jpg'
+import places4 from '../images/jpg/places/4-min.jpg'
+import places5 from '../images/jpg/places/5-min.jpg'
 
 export const Places = () => {
   return (

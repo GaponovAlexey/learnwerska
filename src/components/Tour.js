@@ -1,6 +1,6 @@
 import React from 'react'
-import tour1 from '../images/jpg/tour/1.jpg'
-import tour2 from '../images/jpg/tour/2.jpg'
+import tour1 from '../images/jpg/tour/1-min.jpg'
+import tour2 from '../images/jpg/tour/2-min.jpg'
 
 export const Tour = () => {
   return (
